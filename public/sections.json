@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Basic",
+    "subtitle": "LIMITED ACCESS",
+    "prices": {
+      "USD": { "monthly": "FREE", "annual": "FREE" },
+      "EUR": { "monthly": "FREE", "annual": "FREE" },
+      "GBP": { "monthly": "FREE", "annual": "FREE" }
+    },
+    "buttonLabel": "Get Started",
+    "buttonUrl": "/users/sign_up?from_pricing=true",
+    "planItems": [
+      "Every first chapter free",
+      "Free professional profile and job board access",
+      "Upgrade to earn certificates"
+    ]
+  },
+  {
+    "title": "Premium",
+    "subtitle": "FOR INDIVIDUALS",
+    "prices": {
+      "USD": { "monthly": 42, "annual": 14 },
+      "EUR": { "monthly": 39, "annual": 13 },
+      "GBP": { "monthly": 34, "annual": 11 }
+    },
+    "buttonLabel": "Subscribe Now",
+    "buttonUrl": "/subscribe?from_pricing=true&pay_period=monthly&product=premium",
+    "planItems": [
+      "Access our full content library",
+      "All certificates and projects",
+      "Go from zero to job ready",
+      "Our top Python, SQL, Tableau, Power BI and R programs",
+      "More ways to learn to code"
+    ]
+  },
+  {
+    "title": "Teams",
+    "subtitle": "FOR TEAMS OF 2 AND UP",
+    "prices": {
+      "USD": { "monthly": 14, "annual": 14 },
+      "EUR": { "monthly": 11, "annual": 11 },
+      "GBP": { "monthly": 13, "annual": 13 }
+    },
+    "buttonLabel": "Subscribe Now",
+    "buttonUrl": "/groups/subscribe/account",
+    "beforePlanItemsText": "Everything in Premium plus:",
+    "planItems": [
+      "Manage your group",
+      "View learning activity and track progress",
+      "License management tools"
+    ],
+    "afterPlanItemsLink": "/universities",
+    "afterPlanItemsLinkCopy": "Free Teams plan for educators"
+  },
+  {
+    "title": "Enterprise",
+    "subtitle": "BESPOKE SOLUTIONS",
+    "prices": {
+      "USD": {
+        "monthly": "Contact sales for pricing",
+        "annual": "Contact sales for pricing"
+      },
+      "EUR": {
+        "monthly": "Contact sales for pricing",
+        "annual": "Contact sales for pricing"
+      },
+      "GBP": {
+        "monthly": "Contact sales for pricing",
+        "annual": "Contact sales for pricing"
+      }
+    },
+    "buttonLabel": "Request a Demo",
+    "buttonUrl": "/business/demo",
+    "beforePlanItemsText": "Everything in Teams plus:",
+    "planItems": [
+      "Personalized and adaptive learning paths for employees",
+      "Advanced analytics and reporting integrations",
+      "Single Sign-On (SSO) through Okta, Auth0, Azure and more",
+      "LMS/LXP integrations"
+    ]
+  }
+]
